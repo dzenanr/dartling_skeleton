@@ -45,7 +45,7 @@ The domain (your domain name) folder has the model (your model name) folder that
 
 ## Dartling Code Generation Guide
 
-[Dartling Skeleton] (https://github.com/dzenanr/dartling_skeleton) is a [Dart Editor] (http://www.dartlang.org/docs/editor/getting-started/ project template for a new Dartling project.
+[Dartling Skeleton](https://github.com/dzenanr/dartling_skeleton) is a [Dart Editor] (http://www.dartlang.org/docs/editor/getting-started/ project template for a new Dartling project.
 
 ### Your Dartling Project
 
