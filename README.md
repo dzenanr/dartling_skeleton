@@ -88,7 +88,7 @@ The domain (your domain name) folder has the model (your model name) folder that
 * copy the dartling_skeleton folder and rename it to your domain_name_model_name
 * rename name in pubspec.yaml
 * delete the copied .git folder in the new project
-* Open Folder... in Dart Editor
+* Open Folder... in Dart Editor without pub
 * select the root folder and choose in the pop-up menu Don’t Analyze
 * in the web/img and web/dartling/skeleton/img folders replace the png file with your model’s png file
 * rename folders, files in the lib, test and web folders that have dartling and skeleton names
