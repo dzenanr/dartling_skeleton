@@ -53,27 +53,22 @@ The domain (your domain name) folder has the model (your model name) folder that
 
 * do not use special characters in any names
 * do not use - (minus) or space in any names
-
 * do not use plural for box (concept) names
 * start a box name with a capital letter
 * do not use composite box names (no: CarBrand; yes: Brand);
    if you must use a composite box name, then use [CamelCase]
    (http://en.wikipedia.org/wiki/CamelCase)
-
 * some boxes must be entry
-
 * do not use oid and code to name an item
 * start an item name with a small letter
 * do not repeat the concept name within the attribute name
 * item names may be composite 
 * for composite item names use camelCase (first letter lower)
 * all items must be typed
-
 * all lines must have parent and child names (neighbor names)
 * start a neighbor name with a lower letter
 * neighbor names may be composite 
 * for composite neighbor names use camelCase (first letter lower)
-
 * click on From JSON to obtain the JSON text for the model
 * [pretty format JSON] (http://jsonformatter.curiousconcept.com/)
 
@@ -85,14 +80,10 @@ The domain (your domain name) folder has the model (your model name) folder that
 * start a domain name or a model name with a capital letter
 * do not use composite names for domains and models 
    (no: DartlingDomain; yes: Dartling);
-   if you must use a composite name, then use CamelCase
-   
+   if you must use a composite name, then use CamelCase   
 * when domain, model or concept names are used in folder and file names, they must be all in lower letters
-
 * when domain, model or concept names are used in folder and file names, if they are used together, they must be separated by _ (underscore): domain_model
-
 * when domain, model or concept names are used in folder and file names, if they are composite, their components must be separated by _ : my_domain
-
 * open the dartling_skeleton folder in Dart Editor but without pub
 * copy the dartling_skeleton folder and rename it to your domain_name_model_name
 * rename name in pubspec.yaml
@@ -108,7 +99,6 @@ The domain (your domain name) folder has the model (your model name) folder that
 * do not rename the models.dart file in lib/gen/dartling
 * update sources in the library files, lib/dartling_skeleton.dart and lib/dartling_skeleton_app.dart,  to reflect your domain and model names
 * do not rename #import("package:dartling/dartling.dart"); and #import("package:dartling/dartling_app.dart");
-
 * in lib/dartling/skeleton/json/data.dart, rename the dartlingSkeletonDataJson var name:
       change dartling to yourDomainName
       change Skeleton to YourModelName
@@ -116,32 +106,26 @@ The domain (your domain name) folder has the model (your model name) folder that
       change dartling to yourDomainName;
       change Skeleton to YourModelName;
       do not change model or Model
-
 * in test/dartling/skeleton/dartling_skeleton_gen.dart, rename #import("package:dartling_skeleton/dartling_skeleton.dart"):
     rename dartling to yourDomainName;
     change "Dartling" to "YourDomainName";
     rename Skeleton to YourModelName;
     change "Skeleton" to "YourModelName"
-
 * copy the [pretty format] (http://jsonformatter.curiousconcept.com/) of the JSON text of the model to lib/dartling/skeleton/json/model.dart between var and '''
-
 * Close and then open the project folder with pub
 * select the root folder and choose in the pop-up menu Analyze
 * Run dartling_skeleton_gen.dart to generate code
 * copy the generated code into indicated files (including dartling_skeleton_gen) and save; if there is no indicated file, File/New File in its folder
-
 * if red color, close and open the project folder to potentially get rid of some red color
 * if there are still errors, check your model in Magic Boxes (read again the recommendations)
 * change the model and put the code with red color in comments 
 * update at least src of the script tag in dartling_skeleton_web.html file
-
 * init model with some data in lib/dartling/skeleton/init.dart
 * Run dartling_skeleton_gen.dart to init
-
 * Run in Dartium web/dartling/skeleton/dartling_skeleton_web.html to see the model alive
-
 * add some tests in the test folder, in dartling_skeleton_test.dart file
 * Run dartling_skeleton_test.dart file to test
+
 
 
 
