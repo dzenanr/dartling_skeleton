@@ -1,0 +1,70 @@
+github.txt for dartling_skeleton (your domain_model) 
+
+GitHub, Git
+
+https://github.com/
+http://www.codeschool.com/courses/try-git
+http://git-scm.com/videos
+http://marklodato.github.com/visual-git-guide/index-en.html
+
+Education
+
+https://github.com/edu
+
+Create an account at GitHub.
+
+Read:
+
+http://help.github.com/win-set-up-git/
+http://www.ralfebert.de/blog/tools/git_screencast/
+http://scottr.org/presentations/git-in-5-minutes/
+
+-------------------------------------------------------------------------------
+
+After creating an account, create a remote repository.
+
+http://help.github.com/create-a-repo/
+
+Create a New Repo at GitHub 
+(without README, since cloning will not be used).
+Repository Name: domain_model
+Description: 
+  Use your names for domain and model.
+      
+Next steps:
+  cd git/dart/examples/domain_model
+  git init
+  git status
+  git add .
+  git commit -m 'initial model version'
+  git remote add origin https://github.com/dzenanr/domain_model.git
+  git push -u origin master     
+
+-------------------------------------------------------------------------------
+
+Work with a local repository
+
+cd git/dart/domain_model
+
+git status
+
+git add .
+
+git status
+
+git commit -m 'short description'
+
+git status
+
+git rm file
+
+git status
+
+git push
+or
+git push origin master
+
+git status
+
+-------------------------------------------------------------------------------
+
