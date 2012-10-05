@@ -111,6 +111,7 @@ The domain (your domain name) folder has the model (your model name) folder that
     rename Skeleton to YourModelName;
     change "Skeleton" to "YourModelName"
 * copy the [pretty format] (http://jsonformatter.curiousconcept.com/) of the JSON text of the model to lib/dartling/skeleton/json/model.dart between var and '''
+* Dart Editor must know where you have installed git; on Windows add something like C:\Program Files (x86)\Git\bin; to the Path system variable
 * Close and then open the project folder with pub
 * select the root folder and choose in the pop-up menu Analyze
 * Run dartling_skeleton_gen.dart to generate code
