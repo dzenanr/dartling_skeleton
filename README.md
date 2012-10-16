@@ -1,6 +1,12 @@
 
 
 
+# Dartling Skeleton
+
+Categories: Dartling, new project, code generation.
+
+Description: [Dartling Skeleton](https://github.com/dzenanr/dartling_skeleton) is a [Dart Editor] (http://www.dartlang.org/docs/editor/getting-started/) project template for a new Dartling project.
+
 # Dartling
 
 [Dartling] (https://github.com/dzenanr/dartling) is a domain model framework for web application prototypes. Its open source license is the 3-clause BSD license -- ["New BSD License" or "Modified BSD License"] (http://en.wikipedia.org/wiki/BSD_license).
@@ -45,8 +51,6 @@ The domain (your domain name) folder has the model (your model name) folder that
 
 ## Dartling Code Generation Guide
 
-[Dartling Skeleton](https://github.com/dzenanr/dartling_skeleton) is a [Dart Editor] (http://www.dartlang.org/docs/editor/getting-started/) project template for a new Dartling project.
-
 ### Your Dartling Project
 
 #### Design a model in [Magic Boxes] (https://github.com/dzenanr/magic_boxes)
@@ -70,7 +74,7 @@ The domain (your domain name) folder has the model (your model name) folder that
 * neighbor names may be composite 
 * for composite neighbor names use camelCase (first letter lower)
 * click on From JSON to obtain the JSON text for the model
-* [pretty format JSON] (http://jsonformatter.curiousconcept.com/)
+* click on Pretty JSON to obtain the formatted JSON text 
 
 #### Copy the dartling_skeleton project
 
@@ -84,11 +88,9 @@ The domain (your domain name) folder has the model (your model name) folder that
 * when domain, model or concept names are used in folder and file names, they must be all in lower letters
 * when domain, model or concept names are used in folder and file names, if they are used together, they must be separated by _ (underscore): domain_model
 * when domain, model or concept names are used in folder and file names, if they are composite, their components must be separated by _ : my_domain
-* open the dartling_skeleton folder in Dart Editor but without pub
 * copy the dartling_skeleton folder and rename it to your domain_name_model_name
-* rename name in pubspec.yaml
 * delete the copied .git folder in the new project
-* Open Folder... in Dart Editor without pub
+* Open Folder... in Dart Editor of the new project but without pub
 * select the root folder and choose in the pop-up menu Don’t Analyze
 * in the web/img and web/dartling/skeleton/img folders replace the png file with your model’s png file
 * rename folders, files in the lib, test and web folders that have dartling and skeleton names
@@ -110,9 +112,11 @@ The domain (your domain name) folder has the model (your model name) folder that
     change "Dartling" to "YourDomainName";
     rename Skeleton to YourModelName;
     change "Skeleton" to "YourModelName"
-* copy the [pretty format] (http://jsonformatter.curiousconcept.com/) of the JSON text of the model to lib/dartling/skeleton/json/model.dart between var and '''
-* Dart Editor must know where you have installed git; on Windows add something like C:\Program Files (x86)\Git\bin; to the Path system variable
-* Close and then open the project folder with pub
+* copy the pretty format of the JSON text of the model to lib/dartling/skeleton/json/model.dart between var and '''
+* Dart Editor must know (?) where you have installed git; on Windows add something like C:\Program Files (x86)\Git\bin; to the Path system variable
+* move the pub/pubspec.yaml file to the root folder of your project
+* rename name in pubspec.yaml
+* Close and then open the project folder but this time with pub
 * select the root folder and choose in the pop-up menu Analyze
 * Run dartling_skeleton_gen.dart to generate code
 * copy the generated code into indicated files (including dartling_skeleton_gen) and save; if there is no indicated file, File/New File in its folder

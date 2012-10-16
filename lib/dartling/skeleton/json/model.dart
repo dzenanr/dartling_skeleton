@@ -8,6 +8,6 @@
 
 // lib/dartling/skeleton/json/model.dart
 
-var dartlingSkeletonModelJson = @'''
+var dartlingSkeletonModelJson = r'''
 
 ''';
