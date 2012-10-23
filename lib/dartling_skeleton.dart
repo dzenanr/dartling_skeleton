@@ -31,18 +31,18 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#library('dartling_skeleton');
+library dartling_skeleton;
 
-#import("package:dartling/dartling.dart");
+import 'package:dartling/dartling.dart';
 
-#source("dartling/skeleton/json/data.dart");
+part 'dartling/skeleton/json/data.dart';
 // do not change model
-#source("dartling/skeleton/json/model.dart");
+part 'dartling/skeleton/json/model.dart';
 
-#source("dartling/skeleton/init.dart");
+part 'dartling/skeleton/init.dart';
 
-#source("gen/dartling/skeleton/entries.dart");
+part 'gen/dartling/skeleton/entries.dart';
 
 // do not change models
-#source("gen/dartling/models.dart");
-#source("gen/dartling/repository.dart");
+part 'gen/dartling/models.dart';
+part 'gen/dartling/repository.dart';

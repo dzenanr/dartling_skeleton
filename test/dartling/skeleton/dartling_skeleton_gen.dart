@@ -31,9 +31,9 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#import("package:dartling/dartling.dart");
+import 'package:dartling/dartling.dart';
 
-#import("package:dartling_skeleton/dartling_skeleton.dart");
+import 'package:dartling_skeleton/dartling_skeleton.dart';
 
 genCode() {
   var repo = new Repo();

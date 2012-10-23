@@ -1,3 +1,4 @@
+part of dartling_skeleton;
 
 // http://www.json.org/
 // http://jsonformatter.curiousconcept.com/
