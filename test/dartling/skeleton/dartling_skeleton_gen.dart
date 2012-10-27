@@ -50,7 +50,9 @@ genCode() {
 
   repo.domains.add(dartlingDomain);
 
-  repo.gen();
+  // rename dartling to yourDomainName
+  // rename skeleton to yourModelName
+  repo.gen("dartling_skeleton");
 }
 
 void main() {
