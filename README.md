@@ -22,7 +22,7 @@ Description: Dartling Skeleton is a [Dart Editor]
    if you must use a composite box name, then use [CamelCase]
    (http://en.wikipedia.org/wiki/CamelCase)
 * some boxes must be entry
-* do not use oid and code to name an item
+* do not use oid, id, code or concept to name an item
 * start an item name with a small letter
 * do not repeat the concept name within the attribute name
 * item names may be composite 
@@ -49,6 +49,7 @@ Description: Dartling Skeleton is a [Dart Editor]
 * when domain, model or concept names are used in folder and file names, if they are composite, their components must be separated by _ : my_domain
 * copy the dartling_skeleton folder and rename it to your domain_name_model_name
 * delete the copied .git folder in the new project
+* open the .project file and rename the name to your domain_name_model_name
 * Open Folder... in Dart Editor of the new project but without pub
 * select the root folder and choose in the pop-up menu Don’t Analyze
 * in the web/img and web/dartling/skeleton/img folders replace the png file with your model’s png file
@@ -57,8 +58,8 @@ Description: Dartling Skeleton is a [Dart Editor]
 * rename skeleton with your model_name
 * do not rename the model.dart file in lib/dartling/skeleton/json
 * do not rename the models.dart file in lib/gen/dartling
-* update sources in the library files, lib/dartling_skeleton.dart and lib/dartling_skeleton_app.dart,  to reflect your domain and model names
-* do not rename #import("package:dartling/dartling.dart"); and #import("package:dartling/dartling_app.dart");
+* update library and part in the library files, lib/dartling_skeleton.dart and lib/dartling_skeleton_app.dart,  to reflect your domain and model names
+* do not rename import "package:dartling/dartling.dart"; and import "package:dartling/dartling_app.dart";
 * in lib/dartling/skeleton/json/data.dart, rename the dartlingSkeletonDataJson var name:
       change dartling to yourDomainName
       change Skeleton to YourModelName
@@ -66,18 +67,19 @@ Description: Dartling Skeleton is a [Dart Editor]
       change dartling to yourDomainName;
       change Skeleton to YourModelName;
       do not change model or Model
-* in test/dartling/skeleton/dartling_skeleton_gen.dart, rename #import("package:dartling_skeleton/dartling_skeleton.dart"):
+* in test/dartling/skeleton/dartling_skeleton_gen.dart, rename import "package:dartling_skeleton/dartling_skeleton.dart":
     rename dartling to yourDomainName;
     change "Dartling" to "YourDomainName";
     rename Skeleton to YourModelName;
     change "Skeleton" to "YourModelName"
 * copy the pretty format of the JSON text of the model to lib/dartling/skeleton/json/model.dart between var and '''
-* Dart Editor must know (?) where you have installed git; on Windows add something like C:\Program Files (x86)\Git\bin; to the Path system variable
-* move the pub/pubspec.yaml file to the root folder of your project
+* Dart Editor must know where you have installed git; on Windows add something like C:\Program Files (x86)\Git\bin; to the Path system variable
+* move the pub/pubspec.yaml file only to the root folder of your project
+* delete the empty pub folder
 * rename name in pubspec.yaml
-* Close and then open the project folder but this time with pub
+* Close and then open the project folder but this time with the pub
 * select the root folder and choose in the pop-up menu Analyze
-* Run dartling_skeleton_gen.dart to generate code
+* Run dartling_skeleton_gen.dart in tyhe test folder to generate code
 * copy the generated code into indicated files (including dartling_skeleton_gen) and save; if there is no indicated file, File/New File in its folder
 * if red color, close and open the project folder to potentially get rid of some red color
 * if there are still errors, check your model in Magic Boxes (read again the recommendations)
