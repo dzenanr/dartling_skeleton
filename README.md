@@ -49,7 +49,6 @@ Description: Dartling Skeleton is a [Dart Editor]
 * when domain, model or concept names are used in folder and file names, if they are composite, their components must be separated by _ : my_domain
 * copy the dartling_skeleton folder and rename it to your domain_name_model_name
 * delete the copied .git folder in the new project
-* open the .project file and rename the name to your domain_name_model_name
 * Open Folder... in Dart Editor of the new project but without pub
 * select the root folder and choose in the pop-up menu Don’t Analyze
 * in the web/img and web/dartling/skeleton/img folders replace the png file with your model’s png file
