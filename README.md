@@ -72,7 +72,7 @@ Description: Dartling Skeleton is a [Dart Editor]
     rename Skeleton to YourModelName;
     change "Skeleton" to "YourModelName"
 * copy the pretty format of the JSON text of the model to lib/dartling/skeleton/json/model.dart between var and '''
-* Dart Editor must know where you have installed git; on Windows add something like C:\Program Files (x86)\Git\bin; to the Path system variable
+* Dart Editor must know where you have installed git; on Windows add something like C:\Program Files (x86)\Git\bin; to the Path system variable (http://www.itechtalk.com/thread3595.html)
 * move the pub/pubspec.yaml file (file only) to the root folder of your project
 * delete the empty pub folder
 * rename name in pubspec.yaml
