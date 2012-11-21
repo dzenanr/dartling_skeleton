@@ -49,7 +49,7 @@ Description: Dartling Skeleton is a [Dart Editor]
 * when domain, model or concept names are used in folder and file names, if they are composite, their components must be separated by _ : my_domain
 * copy the dartling_skeleton folder and rename it to your domain_name_model_name
 * delete the copied .git folder in the new project
-* Open Folder... in Dart Editor of the new project but without pub
+* Open Folder... in Dart Editor of the new project
 * select the root folder and choose in the pop-up menu Don’t Analyze
 * in the web/img and web/dartling/skeleton/img folders replace the png file with your model’s png file
 * rename folders, files in the lib, test and web folders that have dartling and skeleton names
@@ -57,7 +57,7 @@ Description: Dartling Skeleton is a [Dart Editor]
 * rename skeleton with your model_name
 * do not rename the model.dart file in lib/dartling/skeleton/json
 * do not rename the models.dart file in lib/gen/dartling
-* update library and part in the library files, lib/dartling_skeleton.dart and lib/dartling_skeleton_app.dart,  to reflect your domain and model names
+* update library and part in the library files, lib/dartling_skeleton.dart and lib/dartling_skeleton_app.dart, to reflect your domain and model names
 * do not rename import "package:dartling/dartling.dart"; and import "package:dartling/dartling_app.dart";
 * in lib/dartling/skeleton/json/data.dart, rename the dartlingSkeletonDataJson var name:
       change dartling to yourDomainName
@@ -73,12 +73,12 @@ Description: Dartling Skeleton is a [Dart Editor]
     change "Skeleton" to "YourModelName"
 * copy the pretty format of the JSON text of the model to lib/dartling/skeleton/json/model.dart between var and '''
 * Dart Editor must know where you have installed git; on Windows add something like C:\Program Files (x86)\Git\bin; to the Path system variable
-* move the pub/pubspec.yaml file only to the root folder of your project
+* move the pub/pubspec.yaml file (file only) to the root folder of your project
 * delete the empty pub folder
 * rename name in pubspec.yaml
-* Close and then open the project folder but this time with the pub
+* Close and then open the project folder with the pub
 * select the root folder and choose in the pop-up menu Analyze
-* Run dartling_skeleton_gen.dart in tyhe test folder to generate code
+* Run dartling_skeleton_gen.dart in the test folder to generate code
 * copy the generated code into indicated files (including dartling_skeleton_gen) and save; if there is no indicated file, File/New File in its folder
 * if red color, close and open the project folder to potentially get rid of some red color
 * if there are still errors, check your model in Magic Boxes (read again the recommendations)
