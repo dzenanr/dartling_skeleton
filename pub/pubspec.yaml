@@ -6,5 +6,6 @@ description: >
   dartling is a domain model framework.
   A new dartling project is copied and adapted from dartling_skeleton.
 dependencies:
+  browser: any
   dartling:
     git: git://github.com/dzenanr/dartling.git
