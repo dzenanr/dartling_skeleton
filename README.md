@@ -3,10 +3,15 @@
 
 # Dartling Skeleton
 
-Categories: [Dartling] (https://github.com/dzenanr/dartling), new project, code generation.
+**Categories**: [Dartling] (https://github.com/dzenanr/dartling), new project, code generation.
 
-Description: Dartling Skeleton is a [Dart Editor] 
-(http://www.dartlang.org/docs/editor/getting-started/) project template for a new Dartling project.
+**Description** 
+
+Old: Dartling Skeleton is a [Dart Editor] 
+(http://www.dartlang.org/docs/editor/getting-started/) project template for 
+a new Dartling project.
+
+New: Use [dartling_gen] (https://github.com/dzenanr/dartling_gen)
 
 ## Dartling Code Generation Guide
 
@@ -50,8 +55,8 @@ Description: Dartling Skeleton is a [Dart Editor]
 * copy the dartling_skeleton folder and rename it to your domain_name_model_name
 * delete the copied .git folder in the new project
 * Open Folder... in Dart Editor of the new project
-* select the root folder and choose in the pop-up menu Don’t Analyze
-* in the web/img and web/dartling/skeleton/img folders replace the png file with your model’s png file
+* select the root folder and choose in the pop-up menu Donï¿½t Analyze
+* in the web/img and web/dartling/skeleton/img folders replace the png file with your modelï¿½s png file
 * rename folders, files in the lib, test and web folders that have dartling and skeleton names
 * rename dartling with your domain_name
 * rename skeleton with your model_name
